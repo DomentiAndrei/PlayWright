@@ -12,11 +12,11 @@ export const exectute = async(page) => {
         await expect(page).toHaveURL("https://qa.maps.moderncampus.net/login");
         await logInPage.clickloginButton();
         
-          logInPage.enterEmailAddress('bragandrei.92@gmail.com');
+          logInPage.enterEmailAddress('InsertYourEmailAddress');
         
           await logInPage.clickContinueButton();
         
-            logInPage.enterPassword('Armagidon8!');
+            logInPage.enterPassword('InsertYourPass');
         
           await logInPage.clickContinueButton();
 
